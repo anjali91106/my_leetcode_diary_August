@@ -11,8 +11,8 @@
 // You may make at most one clockwise 90° turn, continuing the sequence along the new diagonal.
 // You need to return the maximum length of such a segment found in the grid (or 0 if none found).
 
-//TC-> O(n)
-//SC-> O(1)
+// Time Complexity: O(n * m)
+// Space Complexity: O(n * m)
 
 var lenOfVDiagonal = function(grid) {
    const n = grid.length;
